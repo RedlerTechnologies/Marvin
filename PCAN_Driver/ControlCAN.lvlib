@@ -6,7 +6,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Functions" Type="Folder">
 		<Item Name="VCI_OpenDevice.vi" Type="VI" URL="../ControlCAN.llb/VCI_OpenDevice.vi"/>
-		<Item Name="VCI_CloseDevice.vi" Type="VI" URL="../ControlCAN.llb/VCI_CloseDevice.vi"/>
+		<Item Name="VCI_CloseDevice.vi" Type="VI" URL="../../VCI_CloseDevice.vi"/>
 		<Item Name="VCI_InitCAN.vi" Type="VI" URL="../ControlCAN.llb/VCI_InitCAN.vi"/>
 		<Item Name="VCI_ReadBoardInfo.vi" Type="VI" URL="../ControlCAN.llb/VCI_ReadBoardInfo.vi"/>
 		<Item Name="VCI_ReadErrInfo.vi" Type="VI" URL="../ControlCAN.llb/VCI_ReadErrInfo.vi"/>
