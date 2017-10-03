@@ -21,9 +21,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ControlCAN.dll" Type="Document" URL="../PCAN_Driver/Lib/ControlCAN.dll"/>
 		<Item Name="Marvin.vi" Type="VI" URL="../Marvin.vi"/>
+		<Item Name="Marvin_AHU_params_RRPAR000015_47_v0.2.txt" Type="Document" URL="../Marvin_AHU_params_RRPAR000015_47_v0.2.txt"/>
+		<Item Name="Marvin_AHU_params_RRPAR000016_63_v0.2.txt" Type="Document" URL="../Marvin_AHU_params_RRPAR000016_63_v0.2.txt"/>
+		<Item Name="Marvin_EBAY_params_RRPAR000017_95_v0.2.txt" Type="Document" URL="../Marvin_EBAY_params_RRPAR000017_95_v0.2.txt"/>
 		<Item Name="redler.jpg" Type="Document" URL="../Marvin Tester V1.0/redler.jpg"/>
 		<Item Name="Serial Com Control.ctl" Type="VI" URL="../Serial Com Control.ctl"/>
-		<Item Name="Serial Init.vi" Type="VI" URL="../Serial Init.vi"/>
+		<Item Name="Serial InitMarvin.vi" Type="VI" URL="../Serial InitMarvin.vi"/>
 		<Item Name="Serial.vi" Type="VI" URL="../Serial.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -256,6 +259,10 @@
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set Property (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (DBL).vi"/>
 				<Item Name="Set Property (Enum).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (Enum).vi"/>
 				<Item Name="Set Property (I16).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property (I16).vi"/>
@@ -279,6 +286,7 @@
 				<Item Name="Timestamp Add.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Add.vi"/>
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="usiDataType.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_EditUserDefinedProperties/usiDataType.ctl"/>
 				<Item Name="usiForbiddenCharacters.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_EditUserDefinedProperties/usiForbiddenCharacters.ctl"/>
 				<Item Name="usiOverwriteOptions.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/usiOverwriteOptions.ctl"/>
@@ -305,12 +313,11 @@
 			<Item Name="ControlCAN.lvlib" Type="Library" URL="../PCAN_Driver/ControlCAN.lvlib"/>
 			<Item Name="Demo_GetT0T1.vi" Type="VI" URL="../Demo_GetT0T1.vi"/>
 			<Item Name="Demo_MakeDispBuff.vi" Type="VI" URL="../Demo_MakeDispBuff.vi"/>
-			<Item Name="Help.vi" Type="VI" URL="../Help.vi"/>
+			<Item Name="Help.vi" Type="VI" URL="../../uRayon/Help.vi"/>
 			<Item Name="InitCAN_ATII.vi" Type="VI" URL="../InitCAN_ATII.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="VCI_CloseDevice.vi" Type="VI" URL="/KineticksTester_Mapuah 11.7.17/CAN/CANalystII/PCAN_Driver/ControlCAN.llb/VCI_CloseDevice.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Marvin" Type="EXE">
@@ -325,22 +332,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Marvin Tester V1.0</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Marvin Tester V1.2</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9419BAD7-DAFA-4DA2-B3E5-277F60AD7612}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Marvin.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Marvin Tester V1.0/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Marvin Tester V1.2/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Marvin Tester V1.0/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Marvin Tester V1.2/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{26D2EC84-0D8F-4501-B3A1-70AA1502E5EC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1A9B09DE-33AC-49D3-91CC-FAB85A0FCD71}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Marvin.vi</Property>
@@ -351,14 +358,26 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Serial.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Serial Init.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Serial InitMarvin.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Serial Com Control.ctl</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Marvin_AHU_params_RRPAR000015_47_v0.2.txt</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Marvin_EBAY_params_RRPAR000017_95_v0.2.txt</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Marvin_AHU_params_RRPAR000016_63_v0.2.txt</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 				<Property Name="TgtF_companyName" Type="Str">Engineer</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Marvin</Property>
 				<Property Name="TgtF_internalName" Type="Str">Marvin</Property>
