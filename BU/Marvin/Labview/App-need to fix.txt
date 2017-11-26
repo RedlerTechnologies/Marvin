@@ -1,0 +1,13 @@
+*******BugList For App*******
+**************
+**************
+1. Temp not work correct. (Termistor 2 return 66)
+**************
+**************
+2. Vin Vout not calculated  correctly. (return 6-8)
+**************
+**************
+3. the channel 3. 7. 5. not work.
+**************
+**************
+4.set channel params when it press "set" it send 12 to treshold need to fix (not return hack just what app send). 

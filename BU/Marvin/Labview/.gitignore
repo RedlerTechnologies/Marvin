@@ -1,0 +1,27 @@
+#Exclude - Sourc insight Project
+SI/
+
+#Exclude - Doc folder
+Doc/
+
+#Exclude - html folder
+html/ 
+
+#Exclude - html folder
+Debug/NetRider.elf.hex
+
+#Exclude - Source Safe files
+*.scc
+
+#Exclude - *.o files
+*.o
+
+#Exclude - *.list files
+*.list
+
+#Exclude - *.elf files
+*.elf
+
+#Exclude - *.map files
+*.map
+

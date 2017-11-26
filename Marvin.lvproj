@@ -332,22 +332,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Marvin Tester V1.2</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Marvin Tester V1.4</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9419BAD7-DAFA-4DA2-B3E5-277F60AD7612}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Marvin.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Marvin Tester V1.2/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Marvin V1.4.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Marvin Tester V1.4/Marvin V1.4.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Marvin Tester V1.2/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Marvin Tester V1.4/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1A9B09DE-33AC-49D3-91CC-FAB85A0FCD71}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F71D4F16-465A-4658-98CA-16EEAE9B4BDB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Marvin.vi</Property>
@@ -377,14 +377,17 @@
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Marvin_AHU_params_RRPAR000016_63_v0.2.txt</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/redler.jpg</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Engineer</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Marvin</Property>
 				<Property Name="TgtF_internalName" Type="Str">Marvin</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Engineer</Property>
 				<Property Name="TgtF_productName" Type="Str">Marvin</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D4BDAB7B-4014-407A-86AB-06143374B3F7}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Marvin.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Marvin V1.4.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
