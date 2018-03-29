@@ -1,15 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
-	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="IOScan.Faults" Type="Str"></Property>
-		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
-		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
-		<Property Name="IOScan.Period" Type="UInt">10000</Property>
-		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
-		<Property Name="IOScan.Priority" Type="UInt">9</Property>
-		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -19,15 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ControlCAN.dll" Type="Document" URL="../PCAN_Driver/Lib/ControlCAN.dll"/>
+		<Item Name="ControlCAN.dll" Type="Document" URL="../builds/MarvinATP 2018/data/ControlCAN.dll"/>
 		<Item Name="Marvin.vi" Type="VI" URL="../Marvin.vi"/>
-		<Item Name="Marvin_AHU_params_RRPAR000015_47_v0.2.txt" Type="Document" URL="../Marvin_AHU_params_RRPAR000015_47_v0.2.txt"/>
-		<Item Name="Marvin_AHU_params_RRPAR000016_63_v0.2.txt" Type="Document" URL="../Marvin_AHU_params_RRPAR000016_63_v0.2.txt"/>
-		<Item Name="Marvin_EBAY_params_RRPAR000017_95_v0.2.txt" Type="Document" URL="../Marvin_EBAY_params_RRPAR000017_95_v0.2.txt"/>
-		<Item Name="redler.jpg" Type="Document" URL="../Marvin Tester V1.0/redler.jpg"/>
-		<Item Name="Serial Com Control.ctl" Type="VI" URL="../Serial Com Control.ctl"/>
-		<Item Name="Serial InitMarvin.vi" Type="VI" URL="../Serial InitMarvin.vi"/>
-		<Item Name="Serial.vi" Type="VI" URL="../Serial.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -313,45 +297,41 @@
 			<Item Name="ControlCAN.lvlib" Type="Library" URL="../PCAN_Driver/ControlCAN.lvlib"/>
 			<Item Name="Demo_GetT0T1.vi" Type="VI" URL="../Demo_GetT0T1.vi"/>
 			<Item Name="Demo_MakeDispBuff.vi" Type="VI" URL="../Demo_MakeDispBuff.vi"/>
-			<Item Name="Help.vi" Type="VI" URL="../../uRayon/Help.vi"/>
+			<Item Name="Help.vi" Type="VI" URL="../MarvinATP/Help.vi"/>
 			<Item Name="InitCAN_ATII.vi" Type="VI" URL="../InitCAN_ATII.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Serial InitMarvin.vi" Type="VI" URL="../MarvinATP/Serial InitMarvin.vi"/>
+			<Item Name="Serial.vi" Type="VI" URL="../Serial.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Marvin" Type="EXE">
+			<Item Name="Marvin CAN V1.5" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{D383DD99-33B5-41A9-91A9-C9A500CFB99C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{A9259828-7314-4DF8-A587-6DFA711B8F22}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{22AE4B0E-83A4-4355-B65C-9C27DEE2C873}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{51C6C2AE-6056-4DC8-AECB-CC64DF8528FC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Engineer.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{9EE316A4-4D04-4104-9A53-86F316304ECD}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Marvin</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{DAB24D10-8737-4DAF-BAF3-9436A09E5158}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Marvin CAN V1.5</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Marvin Tester V1.4</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Marvin CAN V1.5</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9419BAD7-DAFA-4DA2-B3E5-277F60AD7612}</Property>
-<<<<<<< HEAD
-				<Property Name="Bld_version.build" Type="Int">25</Property>
-=======
-				<Property Name="Bld_version.build" Type="Int">17</Property>
->>>>>>> e5460992d4f427361e691a41d41594727f028ddd
+				<Property Name="Bld_previewCacheID" Type="Str">{36A171F8-3D85-47E9-8DC7-63C2E2C6A96A}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Marvin V1.4.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Marvin Tester V1.4/Marvin V1.4.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].destName" Type="Str">Marvin CAN V1.5.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Marvin CAN V1.5/Marvin CAN V1.5.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Marvin Tester V1.4/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Marvin CAN V1.5/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F71D4F16-465A-4658-98CA-16EEAE9B4BDB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4698DE6F-8728-4BBD-ADFE-28513BADDBCA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Marvin.vi</Property>
@@ -360,38 +340,14 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ControlCAN.dll</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Serial.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Serial InitMarvin.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Serial Com Control.ctl</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Marvin_AHU_params_RRPAR000015_47_v0.2.txt</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Marvin_EBAY_params_RRPAR000017_95_v0.2.txt</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Marvin_AHU_params_RRPAR000016_63_v0.2.txt</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/redler.jpg</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Engineer</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Marvin</Property>
-				<Property Name="TgtF_internalName" Type="Str">Marvin</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Engineer</Property>
-				<Property Name="TgtF_productName" Type="Str">Marvin</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D4BDAB7B-4014-407A-86AB-06143374B3F7}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Marvin V1.4.exe</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Marvin CAN V1.5</Property>
+				<Property Name="TgtF_internalName" Type="Str">Marvin CAN V1.5</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
+				<Property Name="TgtF_productName" Type="Str">Marvin CAN V1.5</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CB3328A3-A7ED-45A4-9F30-833488E50065}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Marvin CAN V1.5.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
