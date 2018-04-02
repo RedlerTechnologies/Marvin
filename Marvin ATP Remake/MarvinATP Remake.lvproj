@@ -144,6 +144,7 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="AHU UUT (subVI).vi" Type="VI" URL="../AHU UUT (subVI).vi"/>
 			<Item Name="Array Data to Single Num in Hex.vi" Type="VI" URL="../Array Data to Single Num in Hex.vi"/>
 			<Item Name="CANAnalData.vi" Type="VI" URL="../CANAnalData.vi"/>
 			<Item Name="CANSendMotorSpeed.vi" Type="VI" URL="../CANSendMotorSpeed.vi"/>
