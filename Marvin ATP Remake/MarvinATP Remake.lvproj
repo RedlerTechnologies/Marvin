@@ -13,13 +13,13 @@
 		<Item Name="ControlCAN.dll" Type="Document" URL="../data/ControlCAN.dll"/>
 		<Item Name="Main_Marvin Remake.vi" Type="VI" URL="../Main_Marvin Remake.vi"/>
 		<Item Name="Marvin.png" Type="Document" URL="../data/Marvin.png"/>
-		<Item Name="Marvin2.png" Type="Document" URL="../data/Marvin2.png"/>
 		<Item Name="Marvin_AHU_params_RRPAR000015_47_v0.2.txt" Type="Document" URL="../data/Marvin_AHU_params_RRPAR000015_47_v0.2.txt"/>
 		<Item Name="Marvin_AHU_params_RRPAR000016_63_v0.2.txt" Type="Document" URL="../data/Marvin_AHU_params_RRPAR000016_63_v0.2.txt"/>
 		<Item Name="Marvin_EBAY_params_RRPAR000017_95_v0.2.txt" Type="Document" URL="../data/Marvin_EBAY_params_RRPAR000017_95_v0.2.txt"/>
 		<Item Name="MarvinICO.ico" Type="Document" URL="../data/MarvinICO.ico"/>
 		<Item Name="MarvinParams.ini" Type="Document" URL="../data/MarvinParams.ini"/>
 		<Item Name="redler.jpg" Type="Document" URL="../data/redler.jpg"/>
+		<Item Name="Rejet 4.4.18.txt" Type="Document" URL="../Doc/Rejet 4.4.18.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -202,7 +202,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Projects/builds/Marvin/MarvinRemake</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9F9623A8-0448-4725-B6D8-5E0758633638}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MarvinRemake 1.2h.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Projects/builds/Marvin/MarvinRemake/MarvinRemake 1.2h.exe</Property>
@@ -214,7 +214,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/MarvinICO.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7D7042BF-A167-4784-9BC2-33A374D75AC4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{520E819F-D328-4CC9-9868-B76EAC42414E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main_Marvin Remake.vi</Property>
