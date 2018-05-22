@@ -1,0 +1,50 @@
+[StLinkDriver]
+stlinkserialNo=A33DA521
+stlinkfoundProbes=
+CStepIntDis=_ 0
+[DebugChecksum]
+Checksum=1421884049
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[array_types]
+Fmt0=uint8_t[8]	3	0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\stm32f0xx_it.c}.124.3" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\main.c}.273.3" 0 0 1 "" 0 "" 0
+Bp2=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\main.c}.299.4" 0 0 1 "" 0 "" 0
+Count=3
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "C:\Projects\STM32F0Discovery\STM32F0-Discovery_FW_V1.0.0\Libraries\CMSIS\ST\STM32F0xx\Source\Templates\iar\startup_stm32f0xx.s" ""
+A1=_ "C:\Projects\STM32F0Discovery\STM32F0-Discovery_FW_V1.0.0\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c" ""
+A2=_ "C:\Projects\STM32F0Discovery\STM32F0-Discovery_FW_V1.0.0\Project\Peripheral_Examples\TIM_PWM_Input\main.c" ""
+A3=_ "C:\Projects\STM32F0Discovery\STM32F0-Discovery_FW_V1.0.0\Project\Peripheral_Examples\TIM_PWM_Input\system_stm32f0xx.c" ""
+Count=4
+SuppressDialog=0
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1

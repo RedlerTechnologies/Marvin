@@ -1,0 +1,3 @@
+@ECHO OFF
+REM downloading a boot program
+uniflash -programStatusOutput result.txt PASS FAIL -log boot_log.xml -ccxml uRayonUniflash.ccxml -loadSettings uRayonUniflash.uniflashsession -setOptions FlashEraseSelection="Selected Sectors Only" FlashBank0Sector0=0 FlashBank0Sector1=true -operation Erase -program 
