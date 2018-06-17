@@ -312,7 +312,7 @@
 			<Item Name="VCI_InitCAN.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/PCAN_Driver/ControlCAN.llb/VCI_InitCAN.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Marvin CAN V1.7d" Type="EXE">
+			<Item Name="Marvin CAN V1.7e" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{22AE4B0E-83A4-4355-B65C-9C27DEE2C873}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{51C6C2AE-6056-4DC8-AECB-CC64DF8528FC}</Property>
@@ -320,25 +320,25 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Engineer.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{DAB24D10-8737-4DAF-BAF3-9436A09E5158}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Marvin CAN V1.7d</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Marvin CAN V1.7e</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Projects/builds/NI_AB_PROJECTNAME/Marvin CAN V1.7d</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Projects/builds/NI_AB_PROJECTNAME/Marvin CAN V1.7e</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{36A171F8-3D85-47E9-8DC7-63C2E2C6A96A}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Marvin CAN V1.7d.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Projects/builds/NI_AB_PROJECTNAME/Marvin CAN V1.7d/Marvin CAN V1.7d.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Marvin CAN V1.7e.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Projects/builds/NI_AB_PROJECTNAME/Marvin CAN V1.7e/Marvin CAN V1.7e.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Projects/builds/NI_AB_PROJECTNAME/Marvin CAN V1.7d/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Projects/builds/NI_AB_PROJECTNAME/Marvin CAN V1.7e/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F89F88D0-FD7A-4130-8F93-D128EB35BCB4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9A52924B-1C76-467A-B8B0-B6324A8AAB6D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Marvin.vi</Property>
@@ -349,12 +349,12 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Engineer</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Marvin CAN V1.7d</Property>
-				<Property Name="TgtF_internalName" Type="Str">Marvin CAN V1.7d</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Marvin CAN V1.7e</Property>
+				<Property Name="TgtF_internalName" Type="Str">Marvin CAN V1.7e</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
-				<Property Name="TgtF_productName" Type="Str">Marvin CAN V1.7d</Property>
+				<Property Name="TgtF_productName" Type="Str">Marvin CAN V1.7e</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{CB3328A3-A7ED-45A4-9F30-833488E50065}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Marvin CAN V1.7d.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Marvin CAN V1.7e.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

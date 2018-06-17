@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Functions" Type="Folder">
-		<Item Name="VCI_OpenDevice.vi" Type="VI" URL="../../../Marvin ATP Remake 6.5.18/PCAN_Driver/ControlCAN.llb/VCI_OpenDevice.vi"/>
+		<Item Name="VCI_OpenDevice.vi" Type="VI" URL="../../../Marvin ATP Remake 6.5.18 - Copy/PCAN_Driver/ControlCAN.llb/VCI_OpenDevice.vi"/>
 		<Item Name="VCI_CloseDevice.vi" Type="VI" URL="../../VCI_CloseDevice.vi"/>
 		<Item Name="VCI_ReadBoardInfo.vi" Type="VI" URL="../ControlCAN.llb/VCI_ReadBoardInfo.vi"/>
 		<Item Name="VCI_ReadErrInfo.vi" Type="VI" URL="../ControlCAN.llb/VCI_ReadErrInfo.vi"/>
@@ -77,10 +77,10 @@
 		<Item Name="CAN Channel.ctl" Type="VI" URL="../../../Marvin ATP Remake 1.5.18/PCAN_Driver/ControlCAN.llb/CAN Channel.ctl"/>
 		<Item Name="Return Val.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18/PCAN_Driver/ControlCAN.llb/Return Val.ctl"/>
 		<Item Name="VCI_CAN_STATUS.ctl" Type="VI" URL="../ControlCAN.llb/VCI_CAN_STATUS.ctl"/>
-		<Item Name="VCI_INIT_CONFIG.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18/PCAN_Driver/ControlCAN.llb/VCI_INIT_CONFIG.ctl"/>
-		<Item Name="InitFlag.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18/PCAN_Driver/ControlCAN.llb/InitFlag.ctl"/>
-		<Item Name="Mode.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18/PCAN_Driver/ControlCAN.llb/Mode.ctl"/>
-		<Item Name="Fliter.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18/PCAN_Driver/ControlCAN.llb/Fliter.ctl"/>
+		<Item Name="VCI_INIT_CONFIG.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18 - Copy/PCAN_Driver/ControlCAN.llb/VCI_INIT_CONFIG.ctl"/>
+		<Item Name="InitFlag.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18 - Copy/PCAN_Driver/ControlCAN.llb/InitFlag.ctl"/>
+		<Item Name="Mode.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18 - Copy/PCAN_Driver/ControlCAN.llb/Mode.ctl"/>
+		<Item Name="Fliter.ctl" Type="VI" URL="../../../Marvin ATP Remake 6.5.18 - Copy/PCAN_Driver/ControlCAN.llb/Fliter.ctl"/>
 		<Item Name="RefType.ctl" Type="VI" URL="../ControlCAN.llb/RefType.ctl"/>
 		<Item Name="SJW.ctl" Type="VI" URL="../ControlCAN.llb/SJW.ctl"/>
 		<Item Name="BRP.ctl" Type="VI" URL="../ControlCAN.llb/BRP.ctl"/>

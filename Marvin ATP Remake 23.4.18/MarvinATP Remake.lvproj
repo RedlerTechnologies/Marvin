@@ -315,7 +315,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Projects/builds/Marvin/MarvinRemake</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9F9623A8-0448-4725-B6D8-5E0758633638}</Property>
-				<Property Name="Bld_version.build" Type="Int">50</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Marvin V1.2r.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Projects/builds/Marvin/MarvinRemake/Marvin V1.2r.exe</Property>
