@@ -289,26 +289,26 @@
 			<Item Name="CANAnalData.vi" Type="VI" URL="../CANAnalData.vi"/>
 			<Item Name="CANSendMotorSpeed.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/CANSendMotorSpeed.vi"/>
 			<Item Name="ChangeCANBaud.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/ChangeCANBaud.vi"/>
-			<Item Name="ControlCAN.lvlib" Type="Library" URL="../PCAN_Driver/ControlCAN.lvlib"/>
+			<Item Name="ControlCAN.lvlib" Type="Library" URL="../../Marvin ATP Remake 30.5.18/PCAN_Driver/ControlCAN.lvlib"/>
 			<Item Name="ControlCAN.lvlib" Type="Library" URL="../../Marvin ATP Remake 6.5.18 - Copy/PCAN_Driver/ControlCAN.lvlib"/>
 			<Item Name="ControlCAN.lvlib" Type="Library" URL="../../Marvin CAN Bus 3.5.18/PCAN_Driver/ControlCAN.lvlib"/>
 			<Item Name="Demo_GetT0T1.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/Demo_GetT0T1.vi"/>
 			<Item Name="Demo_MakeDispBuff.vi" Type="VI" URL="../../Marvin ATP Remake 1.5.18/Demo_MakeDispBuff.vi"/>
+			<Item Name="DevType.ctl" Type="VI" URL="../../Marvin ATP Remake 30.5.18/PCAN_Driver/ControlCAN.llb/DevType.ctl"/>
 			<Item Name="DevType.ctl" Type="VI" URL="../../Marvin CAN Bus 3.5.18/PCAN_Driver/ControlCAN.llb/DevType.ctl"/>
-			<Item Name="DevType.ctl" Type="VI" URL="../PCAN_Driver/ControlCAN.llb/DevType.ctl"/>
+			<Item Name="Fliter.ctl" Type="VI" URL="../../Marvin ATP Remake 30.5.18/PCAN_Driver/ControlCAN.llb/Fliter.ctl"/>
 			<Item Name="Fliter.ctl" Type="VI" URL="../../Marvin CAN Bus 3.5.18/PCAN_Driver/ControlCAN.llb/Fliter.ctl"/>
-			<Item Name="Fliter.ctl" Type="VI" URL="../PCAN_Driver/ControlCAN.llb/Fliter.ctl"/>
 			<Item Name="Help.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/Help.vi"/>
 			<Item Name="InitCAN_ATII.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/InitCAN_ATII.vi"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Mode.ctl" Type="VI" URL="../../Marvin ATP Remake 30.5.18/PCAN_Driver/ControlCAN.llb/Mode.ctl"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../../Marvin CAN Bus 3.5.18/PCAN_Driver/ControlCAN.llb/Mode.ctl"/>
-			<Item Name="Mode.ctl" Type="VI" URL="../PCAN_Driver/ControlCAN.llb/Mode.ctl"/>
 			<Item Name="Return Val.ctl" Type="VI" URL="../../Marvin CAN Bus 3.5.18/PCAN_Driver/ControlCAN.llb/Return Val.ctl"/>
-			<Item Name="Return Val.ctl" Type="VI" URL="../PCAN_Driver/ControlCAN.llb/Return Val.ctl"/>
 			<Item Name="Serial InitMarvin.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/Serial InitMarvin.vi"/>
 			<Item Name="Serial.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/Serial.vi"/>
+			<Item Name="VCI_CloseDevice.vi" Type="VI" URL="../VCI_CloseDevice.vi"/>
 			<Item Name="VCI_InitCAN.vi" Type="VI" URL="../../Marvin ATP Remake 6.5.18/PCAN_Driver/ControlCAN.llb/VCI_InitCAN.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
