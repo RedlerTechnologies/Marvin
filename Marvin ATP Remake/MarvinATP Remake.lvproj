@@ -284,7 +284,7 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{D521EB19-D68C-44CE-941D-A5BA784F22D1}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">MarvinRemake 1.2p</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/MarvinRemake 1.2t b</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/MarvinRemake 1.2s</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{6BD11736-9731-45EC-B39A-BE2B054FDD64}</Property>
 				<Property Name="Source[1].name" Type="Str">Temp.docx</Property>
@@ -292,7 +292,7 @@
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
-			<Item Name="MarvinRemake 1.2t b" Type="EXE">
+			<Item Name="MarvinRemake 1.2s" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{7DC4D248-47C3-46A1-AA40-F69CFB5AFEF9}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8B5283AC-79BF-4016-93AA-3DD498C0400D}</Property>
@@ -300,17 +300,17 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Engineer.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3C835679-1E48-4ED8-A1E4-5CE91C7F6949}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">MarvinRemake 1.2t b</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MarvinRemake 1.2s</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Projects/builds/Marvin/MarvinRemake</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9F9623A8-0448-4725-B6D8-5E0758633638}</Property>
-				<Property Name="Bld_version.build" Type="Int">52</Property>
+				<Property Name="Bld_version.build" Type="Int">53</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Marvin V1.2t b.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Projects/builds/Marvin/MarvinRemake/Marvin V1.2t b.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Marvin V1.2s.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Projects/builds/Marvin/MarvinRemake/Marvin V1.2s.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -319,7 +319,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/MarvinICO.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9D5BA23E-6F0A-4E28-A695-52880E0097CE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{18ABB497-4BAC-4511-9436-795C4C8734D6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main_Marvin Remake.vi</Property>
@@ -351,12 +351,12 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Engineer</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">MarvinRemake 1.2t b</Property>
-				<Property Name="TgtF_internalName" Type="Str">MarvinRemake 1.2t b</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MarvinRemake 1.2s</Property>
+				<Property Name="TgtF_internalName" Type="Str">MarvinRemake 1.2s</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
-				<Property Name="TgtF_productName" Type="Str">MarvinRemake 1.2t b</Property>
+				<Property Name="TgtF_productName" Type="Str">MarvinRemake 1.2s</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D521EB19-D68C-44CE-941D-A5BA784F22D1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Marvin V1.2t b.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Marvin V1.2s.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
