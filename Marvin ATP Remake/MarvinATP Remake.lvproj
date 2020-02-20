@@ -220,10 +220,10 @@
 				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 17.0</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{F8C28DE1-1E13-4D22-AC1B-A09B86F991EC}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2017 f2</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{86591E9D-23D6-4425-BB06-1B16A5E80E37}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2017 f2 (64-bit)</Property>
 				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
 				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">Math Kernel Libraries</Property>
@@ -253,7 +253,7 @@
 				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI Deployment Framework 2017</Property>
 				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
 				<Property Name="DistPart[3].SoftDepCount" Type="Int">10</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{620DBAE1-B159-4204-8186-0813C8A6434C}</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{0A5935DD-3D5B-4396-8769-038C205F86EA}</Property>
 				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_author" Type="Str">Engineer</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -263,7 +263,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{69DB0126-FAD8-4173-9D0E-1F7DC49BD4A1}</Property>
 				<Property Name="INST_productName" Type="Str">Marvin V 1.2p</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">17008011</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{33B5A336-01A4-4367-A980-7A3A9575715B}</Property>
@@ -284,7 +284,7 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{D521EB19-D68C-44CE-941D-A5BA784F22D1}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">MarvinRemake 1.2p</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/MarvinRemake 1.2t</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/MarvinRemake 1.2u</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{6BD11736-9731-45EC-B39A-BE2B054FDD64}</Property>
 				<Property Name="Source[1].name" Type="Str">Temp.docx</Property>
@@ -292,7 +292,7 @@
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
-			<Item Name="MarvinRemake 1.2t" Type="EXE">
+			<Item Name="MarvinRemake 1.2u" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{7DC4D248-47C3-46A1-AA40-F69CFB5AFEF9}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8B5283AC-79BF-4016-93AA-3DD498C0400D}</Property>
@@ -300,17 +300,17 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Engineer.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3C835679-1E48-4ED8-A1E4-5CE91C7F6949}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">MarvinRemake 1.2t</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MarvinRemake 1.2u</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Projects/builds/Marvin/MarvinRemake</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9F9623A8-0448-4725-B6D8-5E0758633638}</Property>
-				<Property Name="Bld_version.build" Type="Int">56</Property>
+				<Property Name="Bld_version.build" Type="Int">58</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Marvin V1.2t.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Projects/builds/Marvin/MarvinRemake/Marvin V1.2t.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Marvin V1.2u.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Projects/builds/Marvin/MarvinRemake/Marvin V1.2u.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -319,7 +319,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/MarvinICO.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9CBAC479-95F4-42B8-B252-ECACC327707A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2A0C5C79-70F0-47D4-B743-F2ADC2D526B5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main_Marvin Remake.vi</Property>
@@ -351,12 +351,12 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Engineer</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">MarvinRemake 1.2t</Property>
-				<Property Name="TgtF_internalName" Type="Str">MarvinRemake 1.2t</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MarvinRemake 1.2u</Property>
+				<Property Name="TgtF_internalName" Type="Str">MarvinRemake 1.2u</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Engineer</Property>
-				<Property Name="TgtF_productName" Type="Str">MarvinRemake 1.2t</Property>
+				<Property Name="TgtF_productName" Type="Str">MarvinRemake 1.2u</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D521EB19-D68C-44CE-941D-A5BA784F22D1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Marvin V1.2t.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Marvin V1.2u.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
